@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <a href="styles.css" ></a>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" id="input" placeholder="Enter your loaction" class="input-box">
+             
+                <button class="search-btn">
+                    <img src="assets/search-svgrepo-com.svg" class="background-svg"></img>
+                </button>
+                  
+                  
+            </div>
+        </div>
+        <div class="location-not-found">
+            <h1>Location Not Found</h1>
+            <img src="assets/404.png" class="error-img">
+
+        </div>
+        <div class="weather-body">
+            <img src="assets/cloud.png" class="weather-img">
+            <div class="weather-box">
+                <p class="temperature">0<sup>°C</sup></p>
+                <p class="description">Light Rain</p>
+            </div>
+            <div class="weather-details">
+                <div class="text">
+                    <img src="assets/drop.svg">
+                    <div><span class="humidity1">45%</span>
+                    <p class="humidity">Humidity</p></div>    </div>
+                <div class="text">
+                    <img src="assets/wind.svg">
+                    <div><span class="text wind1"> 12 Km/H</span>
+                    <p class="wind">Wind</p>   </div></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js" ></script>
+    <script src="https://kit.fontawesome.com/6b878cc2fa.js" crossorigin="anonymous"></script>
+</body>
+</html> 
